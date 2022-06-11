@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+}
+body{
+	background-color: lightgrey;	
+  background-size: 100vw 100vh;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 1rem;
+	text-align: center;
+}
+h1{
+	font-size: 2.5rem;
+}
+h2{
+	font-size: 2rem;
+}
+h3{
+	font-size: 1.5rem;
+}
+p{
+	font-size: rem;
+	font-weight: 600;
+}
+
+#promedios{
+  margin: 1vh 0vw;
+    text-align: center;
+}
+#promedios h2,h3{
+  text-align: center;
+}
+
+#buscar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 5vw;
+  width: 90vw;
+}
+  #buscar input{
+    width: 90vw;
+    height: 5vh;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 0.25rem;
+    margin: 1vh 2vw;
+  }
+  
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 90vw;
+  margin: 0 5vw;
+}
+
+.card {
+  box-shadow: 0 0.25rem 0.5rem 0.25rem rgba(0,0,0,0.5);
+  width: 12vw;
+  	min-width: 10rem;
+  border-radius: 0.25rem;
+  margin: 2vh 1vw;
+  background-color: whitesmoke;
+}
+
+.card:hover {
+  box-shadow: 0rem 0.5rem 1rem 0.5rem rgba(0,0,0,0.5);
+    transition: 0.25s;
+}
+
+.card img {
+  width: 12vw;
+    min-width: 10rem;
+  border-top-left-radius:0.25rem;
+  border-top-right-radius:0.25rem;
+}
+
+.card h3{
+  text-align: center;
+}
+
+.flexForm{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+  .flexForm input{
+    width: 20vw;
+    height: 4vh;
+    margin: 1vh;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+    .flexForm #submitEmpleado{
+      width: 10vw;
+      height: 4vh;
+      margin: 1vh;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .flexForm #inputGenero{
+      width: 20vw;
+      height: 4vh;
+      margin: 1vh;
+      font-size: 1.5rem;
+      text-align: center;
+    }

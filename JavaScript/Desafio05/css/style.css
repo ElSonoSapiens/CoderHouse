@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+}
+body{
+	background-color: lightgrey;	
+  background-size: 100vw 100vh;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 1rem;
+	text-align: center;
+}
+h1{
+	font-size: 3rem;
+}
+h2{
+	font-size: 2.5rem;
+}
+h3{
+	font-size: 1.8rem;
+}
+p{
+	font-size: rem;
+	font-weight: 600;
+}
+
+#promedios{
+  margin: 0 11vw;
+}
+#promedios h2,h3{
+  text-align: left;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 80vw;
+  margin: 0 10vw;
+}
+
+.card {
+  box-shadow: 0 0.25rem 0.5rem 0.25rem rgba(0,0,0,0.5);
+  width: 16vw;
+  	min-width: 15rem;
+  border-radius: 0.25rem;
+  margin:  2rem;
+  background-color: whitesmoke;
+}
+
+.card:hover {
+  box-shadow: 0rem 0.5rem 1rem 0.5rem rgba(0,0,0,0.5);
+    transition: 0.25s;
+}
+
+.card img {
+  width: 16vw;
+    min-width: 15rem;
+  border-top-left-radius:0.25rem;
+  border-top-right-radius:0.25rem;
+}
+
+.card h3{
+  text-align: center;
+}
+
